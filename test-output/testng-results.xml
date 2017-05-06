@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1174" started-at="2016-05-19T13:58:31Z" finished-at="2016-05-19T13:58:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1174" started-at="2016-05-19T13:58:31Z" finished-at="2016-05-19T13:58:33Z">
+      <class name="be.iesca.tests.TestNG_GestionnaireLivre">
+        <test-method status="PASS" signature="init()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="init" is-config="true" duration-ms="1016" started-at="2016-05-19T15:58:32Z" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="enregistrement()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="enregistrement" duration-ms="29" started-at="2016-05-19T15:58:33Z" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enregistrement -->
+        <test-method status="PASS" signature="connexion()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="connexion" duration-ms="23" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.enregistrement" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connexion -->
+        <test-method status="PASS" signature="ajoutLivres()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="ajoutLivres" duration-ms="11" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.connexion" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ajoutLivres -->
+        <test-method status="PASS" signature="getLivreByUser()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="getLivreByUser" duration-ms="4" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.ajoutLivres" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLivreByUser -->
+        <test-method status="PASS" signature="listerLivres()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="listerLivres" duration-ms="4" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.ajoutLivres" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listerLivres -->
+        <test-method status="PASS" signature="ajouterPret()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="ajouterPret" duration-ms="18" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.listerLivres" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ajouterPret -->
+        <test-method status="PASS" signature="listerPrets()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="listerPrets" duration-ms="4" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.ajouterPret" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listerPrets -->
+        <test-method status="PASS" signature="listerEmprunts()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="listerEmprunts" duration-ms="3" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.listerPrets" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listerEmprunts -->
+        <test-method status="PASS" signature="supprimerUnPret()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="supprimerUnPret" duration-ms="5" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.listerPrets" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supprimerUnPret -->
+        <test-method status="PASS" signature="listePretsApresSuppression()[pri:0, instance:be.iesca.tests.TestNG_GestionnaireLivre@32d992b2]" name="listePretsApresSuppression" duration-ms="3" started-at="2016-05-19T15:58:33Z" depends-on-methods="be.iesca.tests.TestNG_GestionnaireLivre.supprimerUnPret" finished-at="2016-05-19T15:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listePretsApresSuppression -->
+      </class> <!-- be.iesca.tests.TestNG_GestionnaireLivre -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
